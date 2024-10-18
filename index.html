@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    
+    <title>Crypto Converter</title>
+</head>
+<body>
+  <div class="main">
+      <div class="header"><h1 style="font-size: 3rem;">Cryptocurrency Converter</h1></div>
+      <div class="converter">
+        <label for="coin">
+          <p>Amount</p>
+          <input id="coin" name="coin" type="number" placeholder="0.00">
+        </label>
+        <div class="sub">
+          <div class="top">
+            <p>Select Coin</p>
+            <div class="wrapper">
+              <div class="i-wrapper">
+                <img id="coin-image1" src="asset/bitcoin.png" alt="bitcoin">
+                <p id="coin-name1">Bitcoin <span>Btc</span></p>
+              </div>
+              <select name="top-coin" id="top-coin">
+                <option value="" disabled selected>Choose a Cryptocurrency</option>
+                <option value="bitcoin">Bitcoin</option>
+                <option value="ethereum">Ethereum</option>
+                <option value="solana">Solana</option>
+                <option value="ton">Ton</option>
+              </select>
+            </div>  
+          </div>
+
+          <div class="down">
+            <p>Select Coin</p>
+            <div class="wrapper">
+              <div class="i-wrapper">
+                <img id="coin-image2" src="asset/bitcoin.png" alt="bitcoin">
+                <p id="coin-name2">Bitcoin <span>Btc</span></p>
+              </div>
+              <select name="dowm-coin" id="down-coin">
+                <option value="" disabled selected>Choose a Cryptocurrency</option>
+                <option value="bitcoin">Bitcoin</option>
+                <option value="ethereum">Ethereum</option>
+                <option value="solana">Solana</option>
+                <option value="ton">Ton</option>
+              </select>
+            </div> 
+          </div>
+        </div>
+        <div class="print" style="display: none;">
+          lkjdflksjflksjfljsdlfjsdflsdfsdlk
+        </div>
+      </div>
+
+      <div class="rate">
+        <div class="header">Coin rate</div>
+        <div class="box box1">
+          <div class="box-wrapper">
+            <img src="asset/bitcoin.png" alt="Bitcoin">
+            <p class="name name1">Bitcoin <span>Btc</span></p>
+          </div>
+          <p class="price price1">$64,600</p>
+        </div>
+        <hr>
+        <div class="box box2">
+          <div class="box-wrapper">
+            <img src="asset/ethereum.png" alt="Etherum">
+            <p class="name name2">Etherum <span>Eth</span></p>
+          </div> 
+          <p class="price price2">$2,521</p>
+        </div>
+        <hr>
+        <div class="box box3">
+          <div class="box-wrapper">
+            <img src="asset/ton.png" alt="Ton">
+            <p class="name name3">Ton <span>Ton</span></p>
+          </div>
+          <p class="price price3">$5</p>
+        </div>
+        <hr>
+        <div class="box box4">
+          <div class="box-wrapper">
+            <img src="asset/solana.png" alt="Solana">
+            <p class="name name4">Solana <span>Sol</span></p>
+          </div>
+          <p class="price price4">$155</p>
+        </div>
+        <hr>
+    </div>
+    <footer> Oracle &copy 2024</footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
